@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Photos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=1000, maximum-scale=1.0, minimal-ui">
+        <meta name="apple-mobile-web-app-capable" content="yes"/>
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="stylesheet.css" type="text/css"/>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+        <script src="javascript.js"></script>
+    </head>
+    <body>
+        <div id="header">
+            <a class="logo" href="http://www.duke.edu" target="_blank"><img id="duke" src="DukeLogo.jpg"/></a>
+            <h1>Duke Basketball</h1>
+            <a class="logo" href="http://www.aqueti.com" target="_blank"><div id="aqueti"><img src="aqueti.jpg"/></div></a>
+        </div>
+        <div class="horizontal">
+            <h2>Scruffy</h2>
+            <ul>
+                <li><a href="http://www.aqueti.com/"><img id="scruff1" src="images/1.jpg" alt="test" draggable="true" ondragstart="drag(event)"/><h2>Scruffy1</h2></a></li>
+                <li><a href="http://www.aqueti.com/"><img id="scruff2" src="images/2.jpg" alt="test" draggable="true" ondragstart="drag(event)"/><h2>Scruffy2</h2></a></li>
+                <li><a href="http://www.aqueti.com/"><img id="scruff3" src="images/3.jpg" alt="test" draggable="true" ondragstart="drag(event)"/><h2>Scruffy3</h2></a></li>
+                <li><a href="http://www.aqueti.com/"><img id="scruff4" src="images/4.jpg" alt="test" draggable="true" ondragstart="drag(event)"/><h2>Scruffy4</h2></a></li>
+                <li><a href="http://www.aqueti.com/"><img id="scruff5" src="images/5.jpg" alt="test" draggable="true" ondragstart="drag(event)"/><h2>Scruffy5</h2></a></li>
+                <li><a href="http://www.aqueti.com/"><img id="scruff6" src="images/6.jpg" alt="test" draggable="true" ondragstart="drag(event)"/><h2>Scruffy6</h2></a></li>
+            </ul>
+            <h2>Scruffy2</h2>
+            <ul>
+                <li><a href="http://www.aqueti.com/"><img id="scruff7" src="images/7.jpg" alt="test" draggable="true" draggable="true" ondragstart="drag(event)"/><h2>Scruffy7</h2></a></li>
+                <li><a href="http://www.aqueti.com/"><img id="scruff8" src="images/8.jpg" alt="test" draggable="true" draggable="true" ondragstart="drag(event)"/><h2>Scruffy8</h2></a></li>
+                <li><a href="http://www.aqueti.com/"><img id="scruff9" src="images/9.jpg" alt="test" draggable="true" draggable="true" ondragstart="drag(event)"/><h2>Scruffy9</h2></a></li>
+                <li><a href="http://www.aqueti.com/"><img id="scruff10" src="images/10.jpg" alt="test" draggable="true" draggable="true" ondragstart="drag(event)"/><h2>Scruffy10</h2></a></li>
+                <li><a href="http://www.aqueti.com/"><img id="scruff11" src="images/11.jpg" alt="test" draggable="true" draggable="true" ondragstart="drag(event)"/><h2>Scruffy11</h2></a></li>
+                <li><a href="http://www.aqueti.com/"><img id="scruff12" src="images/12.jpg" alt="test" draggable="true" draggable="true" ondragstart="drag(event)"/><h2>Scruffy12</h2></a></li>
+            </ul>
+            <h2>Scruffy3</h2>
+            <ul>
+                <li><a href="http://www.aqueti.com/"><img id="scruff13" src="images/13.jpg" alt="test" draggable="true" draggable="true" ondragstart="drag(event)"/><h2>Scruffy13</h2></a></li>
+                <li><a href="http://www.aqueti.com/"><img id="scruff14" src="images/14.jpg" alt="test" draggable="true" draggable="true" ondragstart="drag(event)"/><h2>Scruffy14</h2></a></li>
+                <li><a href="http://www.aqueti.com/"><img id="scruff15" src="images/15.jpg" alt="test" draggable="true" draggable="true" ondragstart="drag(event)"/><h2>Scruffy15</h2></a></li>
+                <li><a href="http://www.aqueti.com/"><img id="scruff16" src="images/16.jpg" alt="test" draggable="true" draggable="true" ondragstart="drag(event)"/><h2>Scruffy16</h2></a></li>
+                <li><a href="http://www.aqueti.com/"><img id="scruff17" src="images/17.jpg" alt="test" draggable="true" draggable="true" ondragstart="drag(event)"/><h2>Scruffy17</h2></a></li>
+                <li><a href="http://www.aqueti.com/"><img id="scruff18" src="images/18.jpg" alt="test" draggable="true" draggable="true" ondragstart="drag(event)"/><h2>Scruffy18</h2></a></li>
+            </ul>
+        </div>
+        <div id="dragTo" ondrop="drop(event)" ondragover="allowDrop(event)" onmousedown='return false;'></div>
+        <div id="dragText">Drag Photos Here</div>
+    </body>
+</html>
